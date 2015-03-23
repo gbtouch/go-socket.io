@@ -14,8 +14,8 @@ type Server struct {
 }
 
 // NewServer returns the server supported given transports. If transports is nil, server will use ["polling", "websocket"] as default.
-func NewServer(transportNames []string) (*Server, error) {
-	eio, err := engineio.NewServer(transportNames)
+func NewServer() (*Server, error) {
+	eio, err := engineio.NewServer()
 	if err != nil {
 		return nil, err
 	}
