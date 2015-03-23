@@ -1,7 +1,5 @@
 # socket.io
 
-[![GoDoc](http://godoc.org/github.com/googollee/go-socket.io?status.svg)](http://godoc.org/github.com/googollee/go-socket.io) [![Build Status](https://travis-ci.org/googollee/go-socket.io.svg)](https://travis-ci.org/googollee/go-socket.io)
-
 go-socket.io is the implement of [socket.io](http://socket.io) in golang, which is a realtime application framework.
 
 It compatible with latest implement of socket.io in node.js, and support room and namespace.
@@ -13,13 +11,13 @@ It compatible with latest implement of socket.io in node.js, and support room an
 Install the package with:
 
 ```bash
-go get github.com/googollee/go-socket.io
+go get github.com/gbtouch/go-socket.io
 ```
 
 Import it with:
 
 ```go
-import "github.com/googollee/go-socket.io"
+import "github.com/gbtouch/go-socket.io"
 ```
 
 and use `socketio` as the package name inside the code.
@@ -35,7 +33,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/googollee/go-socket.io"
+	"github.com/gbtouch/go-socket.io"
 )
 
 func main() {

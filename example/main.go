@@ -4,12 +4,10 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-
-	"github.com/googollee/go-socket.io"
 )
 
 func main() {
-	server, err := socketio.NewServer(nil)
+	server, err := socketio.NewServer()
 	if err != nil {
 		log.Fatal(err)
 	}
