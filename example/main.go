@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/gbtouch/go-socket.io"
 )
 
 func main() {
